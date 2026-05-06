@@ -19,6 +19,6 @@ if __name__ == '__main__':
         db.session.add(Student(x[0], x[1]))
     db.session.commit()
 
-    # READ Consultas
+    # READ Consultas, vamos tio, esto esta listo
     todos = db.session.query(Student).all()
     print("Todos: \n ", todos)
