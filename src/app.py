@@ -23,7 +23,7 @@ def student_check(student_id):
     if not res:
         raise HTTPException(status_code=404, detail='Student Not Found')
     return res
-
+#cambio
 
 app = FastAPI()
 # KEY = "e7322523fb86ed64c836a979cf8465fbd43637812"
