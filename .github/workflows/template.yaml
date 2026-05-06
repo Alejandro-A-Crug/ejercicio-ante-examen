@@ -30,7 +30,7 @@ jobs:
           context: .
           push: true 
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/galeria:latest # esto se puede cambiar
-aws:
+  aws:
     name: Deploy image to aws
     needs: build
     runs-on: ubuntu-latest
