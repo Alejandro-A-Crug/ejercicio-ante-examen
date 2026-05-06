@@ -1,0 +1,10 @@
+# custom made
+
+services: 
+  antexamen:
+    container_name: antexamen
+    image: alexa453/antexamen:latest
+    ports:
+      -80:8000
+    restart: always
+    
